@@ -1,3 +1,5 @@
 # go-exercises
 
-Exercícios para prática de Programação usando Go
+Exercícios para estudo de Git e prática de Programação usando linguagem Go
+
+
