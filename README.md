@@ -1,1 +1,3 @@
-"descri�ao de teste b�sica"  
+# go-exercises
+
+Exercícios para prática de Programação usando Go
