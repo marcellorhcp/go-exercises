@@ -1,3 +1,5 @@
+**Problem 6 — Sum square difference**
+
 The sum of the squares of the first ten natural numbers is,
 
 ![image](https://user-images.githubusercontent.com/74083936/166616614-af8b0509-ab2b-4993-a5e3-55e7792dd45c.png)
