@@ -9,6 +9,12 @@ func CheckLetters(letters string) []string {
 	var limit int
 	index := int(letters[0])
 
+	for n := 1; n < len(letters); n++ {
+		if int(letters[n-1]) > int(letters[n]) {
+			return missingLetters
+		}
+	}
+
 	if int(letters[0]) > 64 && int(letters[0]) < 91 {
 		limit = 91
 	}
@@ -34,6 +40,6 @@ func main() {
 	fmt.Println(CheckLetters("abcdf"))
 	fmt.Println(CheckLetters("acdf"))
 	fmt.Println(CheckLetters("OQRS"))
-	// fmt.Println(CheckLetters("acdb"))
+	fmt.Println(CheckLetters("acdb"))
 	fmt.Println(CheckLetters("abcz"))
 }
